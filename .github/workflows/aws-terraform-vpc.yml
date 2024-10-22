@@ -21,7 +21,6 @@ jobs:
       with:
         aws-region: us-east-1
         role-to-assume: arn:aws:iam::098789448788:role/GitHubActionsOIDCRole
-        aws-region: us-east-1
         role-session-name: GitHubActionsSession      
 
     - name: Set up Terraform
