@@ -27,7 +27,7 @@ jobs:
       uses: hashicorp/setup-terraform@v3
 
     - name: Change directory to Terraform folder
-      run: cd infrastructure/vpc      
+      run: cd aws/vpc-tf-example
 
     - name: Terraform Init
       run: terraform init
@@ -35,8 +35,8 @@ jobs:
     - name: Terraform Plan
       run: terraform plan
 
-    - name: Terraform Apply
-      run: terraform apply -auto-approve
-
-    - name: Terraform Output
-      run: terraform output
+    # - name: Terraform Apply
+    #   run: terraform apply -auto-approve
+    # 
+    # - name: Terraform Output
+    #   run: terraform output
