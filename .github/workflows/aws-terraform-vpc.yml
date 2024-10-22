@@ -34,7 +34,7 @@ jobs:
       run: ls      
 
     - name: Change directory to Terraform folder
-      run: cd vpc-tf-example
+      run: cd /aws/vpc-tf-example
 
     - name: Terraform Init
       run: terraform init
