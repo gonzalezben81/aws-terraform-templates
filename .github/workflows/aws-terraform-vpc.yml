@@ -21,7 +21,6 @@ jobs:
       with:
         aws-region: us-east-1
         role-to-assume: arn:aws:iam::098789448788:role/GitHubActionsOIDCRole
-        role-session-name: GitHubActionsSession      
 
     - name: Set up Terraform
       uses: hashicorp/setup-terraform@v3
@@ -32,8 +31,8 @@ jobs:
     - name: Terraform Init
       run: terraform init
 
-    - name: Terraform Plan
-      run: terraform plan
+    # - name: Terraform Plan
+    #   run: terraform plan
 
     # - name: Terraform Apply
     #   run: terraform apply -auto-approve
