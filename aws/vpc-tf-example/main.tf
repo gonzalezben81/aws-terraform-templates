@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "us-east-1" # Specify the region
-}
+
 
 resource "aws_vpc" "my_vpc" {
   cidr_block           = "10.0.0.0/24"
