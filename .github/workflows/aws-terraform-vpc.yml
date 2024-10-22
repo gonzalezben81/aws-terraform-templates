@@ -38,13 +38,16 @@ jobs:
       run: cd aws/vpc-tf-example/
 
     - name: Terraform Init
+      working-directory: aws/vpc-tf-example
       run: terraform init
 
-    # - name: Terraform Plan
-    #   run: terraform plan
+    - name: Terraform Plan
+      working-directory: aws/vpc-tf-example    
+      run: terraform plan
 
-    # - name: Terraform Apply
-    #   run: terraform apply -auto-approve
+    - name: Terraform Apply
+      working-directory: aws/vpc-tf-example    
+      run: terraform apply -auto-approve
     # 
     # - name: Terraform Output
     #   run: terraform output
