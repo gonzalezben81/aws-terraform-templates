@@ -32,7 +32,7 @@ jobs:
       uses: hashicorp/setup-terraform@v3
       
     - name: List directories
-      run: ls      
+      run: ls aws/     
 
     - name: Change directory to Terraform folder
       run: cd aws/vpc-tf-example/
