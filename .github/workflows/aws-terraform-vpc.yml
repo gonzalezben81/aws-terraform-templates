@@ -40,14 +40,19 @@ jobs:
     - name: Terraform Init
       working-directory: aws/vpc-tf-example
       run: terraform init
+      
+      - name: Destroy Terraform resources
+        #if: ${{ github.event.action == 'destroy' }}  # Use this condition if you have a specific event to trigger destroy
+        working-directory: aws/vpc-tf-example
+        run: terraform destroy -auto-approve      
 
-    - name: Terraform Plan
-      working-directory: aws/vpc-tf-example    
-      run: terraform plan
-
-    - name: Terraform Apply
-      working-directory: aws/vpc-tf-example    
-      run: terraform apply -auto-approve
+    # - name: Terraform Plan
+    #   working-directory: aws/vpc-tf-example    
+    #   run: terraform plan
+    # 
+    # - name: Terraform Apply
+    #   working-directory: aws/vpc-tf-example    
+    #   run: terraform apply -auto-approve
     # 
     # - name: Terraform Output
     #   run: terraform output
