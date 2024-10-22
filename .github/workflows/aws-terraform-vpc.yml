@@ -6,6 +6,10 @@ on:
   push:
     branches:
       - main
+      
+permissions:
+  id-token: write  # Allow GitHub Actions to issue OIDC tokens
+  contents: read   # Allows accessing repository content      
 
 jobs:
   terraform:
