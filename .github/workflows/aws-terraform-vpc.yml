@@ -31,7 +31,7 @@ jobs:
       uses: hashicorp/setup-terraform@v3
 
     - name: Change directory to Terraform folder
-      run: cd aws/vpc-tf-example
+      run: cd vpc-tf-example
 
     - name: Terraform Init
       run: terraform init
