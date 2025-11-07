@@ -6,4 +6,4 @@ gem "just-the-docs"
 gem 'jemoji'
 
 # This fixes the missing dependency error
-gem "jekyll-default-layout", "~> 0.2.0"
+gem "jekyll-default-layout"
