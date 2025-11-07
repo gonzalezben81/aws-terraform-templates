@@ -20,7 +20,7 @@ All resources are fully configurable using **page variables** such as `vpc_name`
 
 ## Variables
 
-```json
+```hcl
 variable "vpc_name" {
   description = "Name of the VPC"
   type        = string
