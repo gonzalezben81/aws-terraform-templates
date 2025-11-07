@@ -4,9 +4,10 @@
 name: Terraform VPC Deployment
 
 on:
-  push:
-    branches:
-      - main
+  workflow_disptach
+  # push:
+  #   branches:
+  #     - main
       
 permissions:
   id-token: write  # Allow GitHub Actions to issue OIDC tokens
