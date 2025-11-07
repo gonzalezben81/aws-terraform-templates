@@ -38,3 +38,4 @@ variable "private_subnet_cidrs" {
   description = "Private Subnet CIDR values"
   default     = {{ page.private_subnet_cidrs | jsonify }}
 }
+```
