@@ -1,9 +1,3 @@
----
-title: AWS Terraform Templates
-layout: home
-nav_order: 1
----
-
 # 🏗️ AWS Terraform Templates
 {: .fs-9 }
 
