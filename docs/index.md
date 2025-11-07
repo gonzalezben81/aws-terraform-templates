@@ -16,6 +16,7 @@ permalink: /
 ---
 
 
+
 Welcome to the **AWS Terraform Templates** documentation site — a collection of modular, production-ready Terraform blueprints for building, scaling, and automating AWS environments.
 
 These templates demonstrate real-world, reusable patterns for provisioning AWS infrastructure components such as:
