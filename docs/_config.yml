@@ -1,6 +1,6 @@
 title: AWS Terraform Templates
 description: AWS Terraform Templates
-theme: just-the-docs
+theme: jekyll-theme-minimal
 
 
 url: https://gonzalezben81.github.io/aws-terraform-templates/
@@ -92,7 +92,6 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 plugins:
-  - jekyll-remote-theme
   - jemoji
 
 kramdown:
