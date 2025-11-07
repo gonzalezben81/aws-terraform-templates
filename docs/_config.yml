@@ -1,6 +1,10 @@
 title: AWS Terraform Templates
 description: AWS Terraform Templates
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jemoji
+
 
 url: https://gonzalezben81.github.io/aws-terraform-templates/
 
