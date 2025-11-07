@@ -46,3 +46,4 @@ Each module follows **AWS and HashiCorp best practices**, emphasizing clarity, r
    terraform init
    terraform plan
    terraform apply
+   ```
