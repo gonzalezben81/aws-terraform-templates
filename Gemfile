@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll-default-layout"
+gem "jekyll", "~> 4.4"
+gem "just-the-docs"
+
 gem 'jemoji'
