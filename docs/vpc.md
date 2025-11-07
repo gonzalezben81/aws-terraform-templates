@@ -1,3 +1,5 @@
+
+```json
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
@@ -267,3 +269,4 @@ output "private_key" {
   value     = module.key_pair.private_key_pem
   sensitive = true
 }
+```
